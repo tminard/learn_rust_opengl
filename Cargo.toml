@@ -1,0 +1,9 @@
+[package]
+name = "rust_gl"
+version = "0.1.0"
+authors = ["Tyler Minard <adelphospro@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sdl2 = { version = "0.32.1", features = ["bundled", "static-link"] }
+gl = "0.11.0"
